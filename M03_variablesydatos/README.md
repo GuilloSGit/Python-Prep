@@ -15,14 +15,14 @@ Una variable es un espacio de memoria donde guardamos un dato, ese espacio de me
 
 Por otro lado existen ciertas normas a la hora de nombrar variables:
 
-* El nombre no puede empezar con un número<br>
-  Por ejemplo "mi_variable" sería correcto, pero "123mi_variable" sería erróneo 
-* No se permite el uso de guiones del medio -<br>
-  Por ejemplo "mi-variable" sería erróneo
-* No se permite el uso de espacios.<br>
-  Por ejemplo "mi variable" sería erróneo
-* No usar nombres reservados para Python. Las palabras reservadas son utilizadas por Python internamente, por lo que no podemos usarlas para nuestras variables o funciones.<br>
-  Por ejemplo, a veces podríamos usar "int" ó "for" y esto nos daría error, porque como se verá más adelante, esas palabras son parte de la sintaxis de Python.
+* El nombre no puede empezar con un número
+  >Por ejemplo "mi_variable" sería correcto, pero "123mi_variable" sería erróneo 
+* No se permite el uso de guiones del medio -
+  >Por ejemplo "mi-variable" sería erróneo
+* No se permite el uso de espacios
+  >Por ejemplo "mi variable" sería erróneo
+* No usar nombres reservados para Python. Las palabras reservadas son utilizadas por Python internamente, por lo que no podemos usarlas para nuestras variables o funciones
+  >Por ejemplo, a veces podríamos usar "int" ó "for" y esto nos daría error, porque como se verá más adelante, esas palabras son parte de la sintaxis de Python.
 
 ### Constantes
 
@@ -41,11 +41,9 @@ En Python tenemos los siguientes:
 
 Todo valor que pueda ser asignado a una variable tiene asociado un tipo de dato y esto establece qué operaciones se pueden realizar sobre la misma.
 
-<hr width="75%">
-  <p align="center">
-  Tip: En Python hay algunas funcionalidades ya presentes por defecto, como por ejemplo la funcion **print()** que permite mostrar una salida por pantalla y la función range() que devuelve un rango numérico según los parámetros que recibe y con la función **type()** es posible ver el tipo de dato de una variable
-  </p>
-<hr width="75%">
+---
+> **Tip:** En Python, algunas funcionalidades ya están presentes por defecto. Por ejemplo, la función `print()` permite mostrar una salida por pantalla, la función `range()` devuelve un rango numérico según los parámetros que recibe, y con la función `type()` es posible ver el tipo de dato de una variable.
+---
 
 ### Operaciones entre Variables
 
@@ -194,11 +192,9 @@ Tabla del operador lógico "Or Exclusiva", se verifica ((A and not(B)) or (not(A
 True
 ```
 
-<hr width="75%">
-  <p align="center">
-  Tips: Notar que las constantes "True" y "False" se escriben con la primer letra mayúscula y el resto minúsculas, de otra forma arrojaría un error
-  </p>
-<hr width="75%">
+---
+> **Tips:** Notar que las constantes `True` y `False` se escriben con la primera letra mayúscula y el resto minúsculas. De otra forma, arrojaría un error.
+---
 
 ### Conversión de tipos de datos
 
